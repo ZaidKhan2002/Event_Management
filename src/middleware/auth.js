@@ -2,6 +2,15 @@ const jwt = require('jsonwebtoken');
 const config = require('../config');
 const AppError = require('../utils/AppError');
 
+// if the role is organiser, then allow access to the route, else deny access
+const authorize = (roles) => {
+  return (req, res, next) => {
+    if (!roles.includes(req.user.role)) {
+      return next(new AppError('Access denied. You do not have permission to perform this action.', 403));
+    }
+    next();
+  };
+};
 const authenticate = (req, res, next) => {
   const authHeader = req.headers.authorization;
 
@@ -20,4 +29,4 @@ const authenticate = (req, res, next) => {
   }
 };
 
-module.exports = { authenticate };
+module.exports = { authenticate, authorize };

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "a7e8db09-a5e5-4611-af4f-35313d1f0ca5",
+    "name": "XYZ",
+    "email": "test@abc.com",
+    "passwordHash": "$2b$10$l9Tq/CQpO3Qdg8Tm3HkA1ehnwrqjgbaeyGGhWjAD.Wv755i6yS1sS",
+    "role": "organiser",
+    "createdAt": "2026-06-27T12:09:00.453Z"
+  }
+]

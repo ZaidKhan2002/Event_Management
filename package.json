@@ -7,6 +7,9 @@
     "@types/bun": "latest",
     "nodemon": "^3.1.14"
   },
+  "scripts": {
+    "dev": "bun --watch src/server.js"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
