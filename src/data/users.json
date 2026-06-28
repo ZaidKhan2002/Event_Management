@@ -4,7 +4,23 @@
     "name": "XYZ",
     "email": "test@abc.com",
     "passwordHash": "$2b$10$l9Tq/CQpO3Qdg8Tm3HkA1ehnwrqjgbaeyGGhWjAD.Wv755i6yS1sS",
-    "role": "organiser",
+    "role": "organizer",
     "createdAt": "2026-06-27T12:09:00.453Z"
+  },
+  {
+    "id": "b334f0c4-e0e3-48a0-a655-1d22b8fb8dd5",
+    "name": "ABC",
+    "email": "test2@abc.com",
+    "passwordHash": "$2b$10$9b5cKOXnBRd0BKghN/fkVuponeMEv6byxPGPu1WzCa3lJYKD7lH1O",
+    "role": "attendee",
+    "createdAt": "2026-06-28T10:31:30.237Z"
+  },
+  {
+    "id": "594787b5-a0d9-4a5e-9d3d-3564bc082864",
+    "name": "ABCD",
+    "email": "test3@abc.com",
+    "passwordHash": "$2b$10$KZ5iv0QcwKoiDarCb7ybcOenVOX0QmTtCZ1nidcDpiTsbTVaCg4iG",
+    "role": "attendee",
+    "createdAt": "2026-06-28T10:31:41.536Z"
   }
 ]

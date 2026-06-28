@@ -1,0 +1,22 @@
+[
+  {
+    "id": "e85803e9-42bc-49e3-bbe0-de1b7edcc005",
+    "title": "Node.js Workshop",
+    "description": "Learn Express and JWT Authentication",
+    "date": "2026-08-15",
+    "location": "Mumbai",
+    "organizerId": "a7e8db09-a5e5-4611-af4f-35313d1f0ca5",
+    "participants": [],
+    "createdAt": "2026-06-28T10:47:17.542Z"
+  },
+  {
+    "id": "557ca0a8-165b-4ae7-b5ed-7c314e865430",
+    "title": "Mongo DB Workshop",
+    "description": "Learn NoSql DB",
+    "date": "2026-08-15",
+    "location": "Bengaluru",
+    "organizerId": "a7e8db09-a5e5-4611-af4f-35313d1f0ca5",
+    "participants": [],
+    "createdAt": "2026-06-28T10:50:18.117Z"
+  }
+]

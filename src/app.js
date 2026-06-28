@@ -11,8 +11,10 @@ app.use(express.json());
 
 
 const userRoutes = require("./routes/userRoute");
+const eventRoutes = require("./routes/eventRoute");
 
 app.use("/api", userRoutes);
+app.use("/api", eventRoutes);
 
 app.get("/health", (req, res) => {
     res.status(200).json({
